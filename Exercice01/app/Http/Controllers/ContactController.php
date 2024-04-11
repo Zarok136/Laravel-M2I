@@ -10,7 +10,8 @@ public function create():object{
     return view('contact/create');
 }
 
-public function store(Request $request){
+public function store(Request $request):object{
+
     return redirect('/contact/thanks',301);
 }
 

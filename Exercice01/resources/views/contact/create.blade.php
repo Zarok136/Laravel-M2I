@@ -1,4 +1,4 @@
-<h1>CREATION CONTACT</h1>
+<h1>CONTACT</h1>
 <form action="/contact" method="POST">
     @csrf
     <label for="lastname">Nom:</label>
