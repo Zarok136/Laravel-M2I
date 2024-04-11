@@ -14,7 +14,6 @@
 <ul>@foreach($navbar as $k=>$v)<li><a href="{{$k}}">{{$v}}</a></li>@endforeach</ul>
 </header>
 <main>@yield('content')</main>
-<footer></footer>
 </body>
 
 </html>
