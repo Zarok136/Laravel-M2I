@@ -6,7 +6,16 @@ use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-public function create(){
-return view('contact/create');
+public function create():object{
+    return view('contact/create');
+}
+
+public function store(Request $request){
+    return redirect('/contact/thanks',301);
+}
+
+
+public function thanks():object{
+    return view('contact/thanks');
 }
 }
