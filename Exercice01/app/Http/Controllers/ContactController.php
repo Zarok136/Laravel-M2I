@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\ContactMessage;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -10,6 +11,11 @@ public function create():object{
 }
 
 public function store(Request $request):object{
+    ContactMessage::create([
+        'name' => $request->name,
+        'lastname' => $request->lastname
+    ]);
+
     return redirect('contact.thanks');
 }
 
