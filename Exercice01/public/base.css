@@ -1,0 +1,55 @@
+body, html{
+    margin:0;
+    background-color: darkred;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 0.1rem solid whitesmoke;
+    padding-bottom: 1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+li{
+    list-style-type:none;
+}
+a{
+    border: whitesmoke 0.15rem solid;
+    border-radius: 10rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.5s ease ;
+}
+
+a:hover{
+    background: whitesmoke;
+    color: darkred;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 0.1rem solid whitesmoke;
+        padding-top: 1rem;
+}
+
+footer>a{
+    width: fit-content;
+}

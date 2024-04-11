@@ -11,8 +11,11 @@ public function create():object{
 }
 
 public function store(Request $request):object{
-
-    return redirect('/contact/thanks',301);
+    $validatedData= $request->validate([
+        'name' => 'required|string|max:20',
+        'lastname' => 'required|string|max:20'
+    ]);
+    return redirect('/contact/thanks');
 }
 
 
