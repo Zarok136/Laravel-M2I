@@ -1,9 +1,13 @@
 @extends('layout')
+@section('title')
+    contact
+@endsection
 @section('content')
     <h2>Contactez-nous!</h2>
 
     <!--FORMULAIRE DE CONTACT-->
     <form action="/contact" method="POST">
+        <!--VERIFICATION CSRF SINON CA MARCHE PAS-->
         @csrf
         <!--ENTREE DU NOM-->
         <div>
@@ -37,4 +41,11 @@
     </form>
 
 
+@endsection
+
+
+@section('style')
+    <style>
+
+    </style>
 @endsection
