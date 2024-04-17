@@ -9,3 +9,7 @@ L'exercice m'a permis de voir comment le framework laravel fonctionne.
 Pour le TP j'ai réussis à créer une base de données et à relier un formulaire de contact à une table de cette bdd. J'ai aussi ajouté du CSS mais rien n'est terminé.
 Aucune verification n'a été ajoutée pour le moment.
 La redirection de l'envoi du formulaire n'a pas été crée par manque de temps.
+
+# ✨m2i_learning✨
+
+Cet exercice permet de voir comment fonctionne les api.
