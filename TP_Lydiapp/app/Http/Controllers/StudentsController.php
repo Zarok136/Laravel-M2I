@@ -25,6 +25,8 @@ class StudentsController extends Controller
         ]);
 
         Students::create($validated);
-        return redirect('/');
+        $students = Students::all();
+        return view('/',compact('students'));
     }
+
 }
