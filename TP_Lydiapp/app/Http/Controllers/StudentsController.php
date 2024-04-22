@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 class StudentsController extends Controller
 {
     public function index(){
-        return view('listOfStudents');
+        $students = Students::all();
+        return view('listOfStudents', compact('students'));
     }
 
     public function create(){
@@ -25,8 +26,6 @@ class StudentsController extends Controller
         ]);
 
         Students::create($validated);
-        $students = Students::all();
-        return view('/',compact('students'));
     }
 
 }
