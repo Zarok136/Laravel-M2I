@@ -30,5 +30,4 @@ Cet exercice permet de voir comment fonctionne les api.
 
 ## Réalisation
 
-- 🖥️ Ce TP à été réalisé grâce au Framework Laravel.🖥️
-- TP EN COURS DE REALISATION
+⚠️TP EN COURS DE REALISATION⚠️
